@@ -98,7 +98,5 @@ namespace React_WebAPI.Controllers
         {
             return _context.Contacts.Any(e => e.id == id);
         }
-
-
     }
 }
